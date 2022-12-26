@@ -1,0 +1,22 @@
+<!DOICTYPE html>
+<html>
+<head>
+<title>  selector jquery id</title>
+<script src="https://code.jquery.com/jquery-3.6.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("h2").css("background-color","pink");
+$("button").click(function(){
+$("#test").toggle();
+});
+});
+</script>
+</head>
+<body>
+<h2>This is a heading</h2>
+<p>This is a first paragraph</p>
+<p id="test">This is an another paragraph</p>
+<button>Click me </button>
+</body>
+</html>

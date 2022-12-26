@@ -1,0 +1,28 @@
+<!DOICTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.1.js">
+</script>
+<style>
+#para{
+width:250px;
+height:150px;
+overflow:scroll;
+border:2px solid red;
+font-size:25px;
+}
+</style>
+</head>
+<body>
+<p id="para">Hii welcome to Quastech kdfhg gdfg truy hpoh hgdfjgr glkdujg</p>
+
+<script>
+$(document).ready(function(){
+$("#para").scroll(function(){
+$("#para").css("color","red");
+$("#para").css("background-color","pink");
+});
+});
+</script>
+</body>
+</html>

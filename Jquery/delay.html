@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.1.js">
+</script>
+<script>
+
+$(document).ready(function(){
+$("button").click(function(){
+$("#div1").delay("fast").fadeIn();
+$("#div2").delay("slow").fadeIn();
+$("#div3").delay(1000).fadeIn();
+$("#div4").delay(2000).fadeIn();
+$("#div5").delay(3000).fadeIn();
+});
+});
+</script>
+
+</head>
+<body>
+<button>Start animation</button>
+
+<div id="div1" style="height:90px;width:90px;display:none;background-color:red;"></div><br>
+<div id="div2" style="height:90px;width:90px;display:none;background-color:blue;"></div><br>
+<div id="div3" style="height:90px;width:90px;display:none;background-color:green;"></div><br>
+<div id="div4" style="height:90px;width:90px;display:none;background-color:purple;"></div><br>
+<div id="div5" style="height:90px;width:90px;display:none;background-color:yellow;"></div><br>
+
+</body>
+</html> 

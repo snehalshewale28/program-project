@@ -1,0 +1,23 @@
+<!DOICTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#hide").click(function(){
+$("p").hide();
+});
+$("#show").click(function(){
+$("p").show(5000);
+});
+});
+</script>
+</head>
+<body>
+<p>welcome  to Quastech</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</body>
+</html>

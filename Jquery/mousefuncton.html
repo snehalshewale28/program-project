@@ -1,0 +1,28 @@
+<!DOICTYPE html>
+<html>
+<head>
+<title>  selector jquery id</title>
+<script src="https://code.jquery.com/jquery-3.6.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("p").on({
+mouseenter:function(){
+$(this).css("background-color","lightgray");
+},
+mouseleave:function(){
+$(this).css("background-color","lightblue");
+},
+click:function(){
+$(this).css("background-color","yellow");
+}
+});
+});
+</script>
+</head>
+<body>
+<p id="p1">Hello world</p>
+
+</body>
+</html>
+

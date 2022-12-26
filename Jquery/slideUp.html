@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.1.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#flip").click(function(){
+$("#panel").slideUp("slow");
+});
+});
+</script>
+<style>
+#panel,#flip{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px black;
+}
+
+</style>
+</head>
+<body>
+<div id="flip">click</div>
+<div id="panel">pooja</div>
+</body>
+</html>  
