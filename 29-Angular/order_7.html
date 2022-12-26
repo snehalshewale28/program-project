@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+<head>
+<title>angular</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script src="order_7.js"></script>
+</head>
+<body>
+
+<div ng-controller="myctrl">
+
+<h2 ng-repeat="x in fruits|orderBy">{{x}}</h2>
+<hr>
+<h2 ng-repeat="y in fruits|orderBy:'-'">{{y}}</h2>
+<hr>
+<h2 ng-repeat="a in fruits|filter:'a'">{{a}}</h2>
+<hr>
+<h2 ng-repeat="z in student"{{z.name}}</h2>
+
+
+</div>
+</body>
+</html>

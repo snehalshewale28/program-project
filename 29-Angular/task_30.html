@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<title>angular</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+<div ng-init="fruit=['apple','mango','orange']">
+<h2 ng-repeat="x in fruit">{{x}}</h2>
+<input type="number" min="0" max="3" ng-model="n">
+<h2>my favourite fruit is:{{fruit[n]}}</h2>
+
+
+</div>
+</body>
+</html>

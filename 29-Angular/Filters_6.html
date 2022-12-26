@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+<head>
+<title>angular</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script src="Filters_6.js"></script>
+</head>
+<body>
+
+<div ng-controller="myctrl">
+
+<h2>{{name | uppercase}}</h2>
+<h2>{{name | lowercase}}</h2>
+
+<h2>{{amount | currency}}</h2>
+<h2>{{amount | currency:"&euro;"}}</h2>
+
+
+</div>
+</body>
+</html>

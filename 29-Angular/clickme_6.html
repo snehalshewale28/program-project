@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="myMod">
+<head>
+<title>angular</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+<script src="event_5.js"></script>
+</head>
+<body>
+
+<div ng-controller="myctrl">
+
+<input type="button" value="clickme" ng-click="n=n+1">
+<h2>{{n}}</h2>
+
+<input type="button" value="clickme" ng-mousedown="n1=n1+1">
+<h2>{{n1}}</h2>
+
+<input type="button" value="clickme" ng-mouseup="n2=n2+1">
+<h2>{{n2}}</h2>
+
+<input type="button" value="clickme" ng-dblclick="n3=n3+1">
+<h2>{{n3}}</h2>
+
+
+<input type="button" value="clickme" ng-mouseenter="n4=n4+1">
+<h2>{{4}}</h2>
+
+<input type="button" value="clickme" ng-mouseover="n5=n5+1">
+<h2>{{5}}</h2>
+
+<input type="button" value="clickme" ng-mousemove="n6=n6+1">
+<h2>{{6}}</h2>
+
+<input type="button" value="clickme" ng-mouselive="n7=n7+1">
+<h2>{{7}}</h2>
+
+
+
+
+
+</div>
+
+</body>
+</html>
