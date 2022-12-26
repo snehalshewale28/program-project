@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<title> BOM-Window Object </title>
+<style>
+#mybtn{
+background:#efefef;
+padding:10px;
+border:none;
+}
+</style>
+</head>
+<body>
+<button onclick="openweb()">open</button>
+<button onclick="closeweb()">close</button>
+<button onclick="window.print()">print</button>
+<button id="mybtn" disable="disable" onclick="clickOn()">aapurchase</botton>
+<script>/*
+var c = confirm("Do you want to delete?");
+if(c==true){
+document.write("Your data is delete successfully");
+}
+else{
+document.write("Your data is not deleted from browser");
+}
+
+var h = window.innerHeight;
+var w = window.innerWidth;
+console.log("The innerHeight of the window is ",h," and the innerWidth is ",w);
+
+function openweb(){
+window.open("https://se.linkedin.com/company/questech?trk=recent-update_content","height=400px","width=300px");
+}
+function closeaweba(){
+window.close();
+}*/
+
+var mytime=setTimeout(enable, 10000);
+function enable(){
+var btn = document.getElementById("mybtn");
+btn.removeAttribute("disabled");
+btn.style.backgroundColor = "orange";
+btn.style.color = "white";
+}
+
+
+</script>
+</body>
+</html>

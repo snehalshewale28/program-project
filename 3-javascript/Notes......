@@ -1,0 +1,8 @@
+Alert:warning
+variable name should start with:(a-z), (A-Z)
+or not should be not start with a number
+java script is --case sensitive 
+*1) var- we can re declare value in var
+let & const: we can not-declare value in var
+
+Break: <br>

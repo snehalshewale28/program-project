@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>Asending desending order</title>
+</head>
+<body>
+<script>
+var arr=[23,72,81,45,39,100,1000,0,2];
+var newarr=arr.filter(function(value,index,arr){
+return value>=60;
+});
+console.log(newarr);
+
+var arr1=[23,72,81,45,39,100,1000,0,2];
+var newarr1=arr1.every(function(value,index,arr){
+return index > 50;
+});
+console.log(newarr1);
+
+</script>
+</body>
+</html>

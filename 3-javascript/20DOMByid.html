@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM BY ID</title>
+<style>
+#d1{
+border:2px solid black;
+width:100px;
+height:100px;
+}
+.c1{
+background-color:orange;
+}
+</style>
+</head>
+<body>
+<div id="d1"> I am Div tag </div>
+<button onclick="set()">click</button>
+<button onclick="remove()">remove</button>
+<script>
+
+function set(){
+var a = document.getElementById("d1");
+a.setAttribute("class","c1");
+}
+
+function remove(){
+var b = document.getElementById("d1");
+b.removeAttribute("class","c1");
+}
+
+</script>
+</body>
+</html>
+
+
+

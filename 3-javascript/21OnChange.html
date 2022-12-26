@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> onChange </title>
+</head>
+<body>
+<form>
+select state:<select id="state" onchange="getCities(this.value)">
+<option value="">select state</option>
+<option value="MP">MP</option>
+<option value="MH">MH</option>
+<option value="Goa">Goa</option>
+</select>
+</form>
+<script>
+function getCities(val){
+alert("val");
+}
+</script>
+</body>
+</html>

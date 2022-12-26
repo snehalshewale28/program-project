@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Asending desending order</title>
+</head>
+<body>
+<script>
+var num=[23,72,81,45,39,100,1000,0,2];
+var a=num.sort(function(a,b){
+return a-b;
+});
+console.log(a);
+
+var rev=num.sort(function(a,b){
+return b-a;
+});
+console.log(rev);
+
+var num=[23,72,81,45,39,100,1000,0,2];
+num.forEach(arrayIteration);
+function arrayIteration(value,index,arr){
+console.log(index, "=", value);
+}
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DOM BY TAG NAME </title>
+<style>
+div{
+border:2px solid black;
+width:100px;
+height:100px;
+background-color:orange;
+}
+</style>
+</head>
+<body>
+<div>Welcome</div>
+<button onclick="changestyle()">click </button>
+<script>
+function changestyle(){
+var st = document.getElementsByTagName("div");
+st[0].style.backgroundColor = "yellow";
+}
+
+
+
+
+
+</script>
+</body>
+</html>
