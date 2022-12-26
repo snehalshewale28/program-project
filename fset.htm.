@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<title>fieldset</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>personal information</legend>
+<lebel for="name">enter something here:</label><br>
+<input type="text" id="name" name="name"><br>
+<input type="submit" value="click">
+</form>
+</body>
+</html>
